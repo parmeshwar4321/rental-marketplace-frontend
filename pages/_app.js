@@ -21,24 +21,24 @@ function Marketplace({ Component, pageProps }) {
           <link rel="apple-touch-icon" href="https://drive.google.com/file/d/1fVD8ZsSK_CYaAjQiASItvznMMaoxeVho/view?usp=sharing" />
           
           <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-          <title>NFT Rental Marketplace</title>
-          <meta name="title" content="NFT Rental Marketplace" />
-          <meta name="description" content="Rent NFTs from the Marketplace without any collateral" />
+          <title>RENT 🤍NFT MARKETPLACE</title>
+          <meta name="title" content="RENT LUV NFT MARKETPLACE" />
+          <meta name="description" content="Rent services, products and homes with NFT technology" />
 
           
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://nft-rental-marketplace.netlify.app/" />
-          <meta property="og:title" content="NFT Rental Marketplace" />
-          <meta property="og:description" content="Collateral Free NFT Rental Marketplace!" />
-          <meta property="og:image" content="https://user-images.githubusercontent.com/30176438/154859304-fdff81f6-490b-4674-b585-d115e89c0996.JPG" />
+          <meta property="og:url" content="https://rent.luvnft.com/" />
+          <meta property="og:title" content="RENT LUV NFT MARKETPLACE" />
+          <meta property="og:description" content="Rent services, products and homes with NFT technology" />
+          <meta property="og:image" content="https://market.luvnft.com/wp-content/uploads/2022/04/NFT-RENTAL-MARKETPLACE.jpg" />
 
           
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://nft-rental-marketplace.netlify.app/" />
-          <meta property="twitter:title" content="NFT Rental Marketplace" />
-          <meta property="twitter:description" content="Collateral Free NFT Rental Marketplace!" />
+          <meta property="twitter:url" content="https://rent.luvnft.com/" />
+          <meta property="twitter:title" content="RENT LUV NFT MARKETPLACE" />
+          <meta property="twitter:description" content="Rent services, products and homes with NFT technology" />
           <meta property="twitter:image"
-            content="https://user-images.githubusercontent.com/30176438/154859304-fdff81f6-490b-4674-b585-d115e89c0996.JPG" />
+            content="https://market.luvnft.com/wp-content/uploads/2022/04/NFT-RENTAL-MARKETPLACE.jpg" />
         </head>
       </div>
       
@@ -46,7 +46,7 @@ function Marketplace({ Component, pageProps }) {
       {/* <title>NFT Rental Marketplace</title> */}
       
       <nav className="border-b p-6 bg-black">
-        <p className="text-4xl font-bold text-white">NFT Rental Marketplace</p>
+        <p className="text-4xl font-bold text-white">RENT 🤍NFT MARKETPLACE</p>
         <div className="flex mt-4">
           
           <Link href="/">
@@ -54,7 +54,7 @@ function Marketplace({ Component, pageProps }) {
               <span className="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-pink-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
               <span className="absolute inset-0 w-full h-full bg-white rounded-md "></span>
               <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-pink-600 rounded-md opacity-0 group-hover:opacity-100 "></span>
-              <span className="relative text-2xl text-pink-600 font-bold transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">Home</span>
+              <span className="relative text-2xl text-pink-600 font-bold transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">HOME 🏠</span>
             </a>
           </Link>
           
@@ -63,7 +63,7 @@ function Marketplace({ Component, pageProps }) {
               <span className="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-pink-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
               <span className="absolute inset-0 w-full h-full bg-white rounded-md "></span>
               <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-pink-600 rounded-md opacity-0 group-hover:opacity-100 "></span>
-              <span className="relative text-2xl text-pink-600 font-bold transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">Create NFTs</span>
+              <span className="relative text-2xl text-pink-600 font-bold transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">CREATE 🤍NFT</span>
             </a>
           </Link>
           
@@ -74,7 +74,7 @@ function Marketplace({ Component, pageProps }) {
               <span className="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-pink-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
               <span className="absolute inset-0 w-full h-full bg-white rounded-md "></span>
               <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-pink-600 rounded-md opacity-0 group-hover:opacity-100 "></span>
-              <span className="relative text-2xl text-pink-600 font-bold transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">My NFTs</span>
+              <span className="relative text-2xl text-pink-600 font-bold transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">MY 🤍NFT</span>
             </a>
           </Link>
 
@@ -83,7 +83,7 @@ function Marketplace({ Component, pageProps }) {
               <span className="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-pink-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
               <span className="absolute inset-0 w-full h-full bg-white rounded-md "></span>
               <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-pink-600 rounded-md opacity-0 group-hover:opacity-100 "></span>
-              <span className="relative text-2xl text-pink-600 font-bold transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">Rented NFTs</span>
+              <span className="relative text-2xl text-pink-600 font-bold transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">RENTED 🤍NFT</span>
             </a>
           </Link>
 
@@ -92,7 +92,7 @@ function Marketplace({ Component, pageProps }) {
               <span className="absolute inset-0 w-full h-full mt-1 ml-1 transition-all duration-300 ease-in-out bg-pink-600 rounded-md group-hover:mt-0 group-hover:ml-0"></span>
               <span className="absolute inset-0 w-full h-full bg-white rounded-md "></span>
               <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-in-out delay-100 bg-pink-600 rounded-md opacity-0 group-hover:opacity-100 "></span>
-              <span className="relative text-2xl text-pink-600 font-bold transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">Claimable NFTs</span>
+              <span className="relative text-2xl text-pink-600 font-bold transition-colors duration-200 ease-in-out delay-100 group-hover:text-white">RENTABLE 🤍NFT</span>
             </a>
           </Link>
 
