@@ -46,7 +46,7 @@ function Marketplace({ Component, pageProps }) {
       {/* <title>NFT Rental Marketplace</title> */}
       
       <nav className="border-b p-6 bg-black">
-        <p className="text-4xl font-bold text-white">RENT 🤍NFT MARKETPLACE</p>
+        <p className="text-4xl font-bold text-white">RENT 🤍NFT</p>
         <div className="flex mt-4">
           
           <Link href="/">
