@@ -97,42 +97,42 @@ export default function CreateItem() {
   return (
     <div className="flex justify-center bg-black">
       <div className="w-1/2 flex flex-col pb-12">
-        <label htmlFor="AssetName" className=" my-12 block mb-2 text-2xl font-medium text-gray-900 dark:text-white">Asset Name</label>
+        <label htmlFor="AssetName" className=" my-12 block mb-2 text-2xl font-medium text-white">🤍NFT RENTAL NAME</label>
         <input 
-          placeholder="Enter Your NFT Name 🖼"
+          placeholder="Name 🖼"
           className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           onChange={e => updateFormInput({ ...formInput, name: e.target.value })}
         />
 
-        <label htmlFor="AssetDescription" className="my-6 block mb-2 text-2xl font-medium text-white ">Asset Description</label>
+        <label htmlFor="AssetDescription" className="my-6 block mb-2 text-2xl font-medium text-white ">🤍NFT RENTAL DEETS</label>
         <textarea
-          placeholder="Write A Detailed Description Of Your NFT 📝"
+          placeholder="Write a detailed description of your 🤍NFT rental 📝"
           className="block p-4 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           onChange={e => updateFormInput({ ...formInput, description: e.target.value })}
         />
 
-        <label htmlFor="RentalTime" className="my-6 block mb-2 text-2xl font-medium text-gray-900 dark:text-white">Rental Time In Minutes</label>
+        <label htmlFor="RentalTime" className="my-6 block mb-2 text-2xl font-medium text-white">🤍NFT RENTAL TIME IN MINUTES ⌛ </label>
         <input
-          placeholder="Enter Time In Minutes ⌛⏱"
+          placeholder="Minutes ⏱"
           className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           onChange={e => updateFormInput({ ...formInput, time: e.target.value })}
         />
         
-        <label htmlFor="AssetPrice" className=" my-6 block mb-2 text-2xl font-medium text-gray-900 dark:text-white">Asset Price</label>
+        <label htmlFor="AssetPrice" className=" my-6 block mb-2 text-2xl font-medium text-white">🤍NFT PRICE</label>
         <input
-          placeholder="Asset Price in Matic 💰"
+          placeholder="Price in Matic 💰"
           className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           onChange={e => updateFormInput({ ...formInput, price: e.target.value })}
         />
 
-        <label htmlFor="formFile" className=" my-6 form-label inline-block mb-2 text-white-700 text-2xl font-bold">Upload Your Image For NFT</label>
+        <label htmlFor="formFile" className=" my-6 form-label inline-block mb-2 text-white-700 text-2xl font-bold">UPLOAD 🤍NFT IMAGE</label>
         <div className="my-6 flex items-left justify-left">
         <label className="w-64 flex flex-col items-center px-4 py-6 bg-black text-blue rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer hover:bg-blue hover:text-white">
           <svg fill="#FFF" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg">
                           <path d="M0 0h24v24H0z" fill="none"/>
                           <path d="M9 16h6v-6h4l-7-7-7 7h4zm-4 2h14v2H5z"/>
           </svg>
-          <span className="mt-2 text-base leading-normal">Select a file</span>
+          <span className="mt-2 text-base leading-normal">SELECT A FILE</span>
           <input
             type="file"
             name="Asset"
@@ -149,7 +149,7 @@ export default function CreateItem() {
           )
         }
         <button onClick={createMarket} className="font-bold mt-4 bg-pink-500 text-white rounded p-4 shadow-lg">
-          Create Digital Asset
+          CREATE A 🤍NFT
         </button>
       </div>
     </div>

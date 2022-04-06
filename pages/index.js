@@ -86,7 +86,7 @@ export default function Home() {
     await transaction.wait()
     loadNFTs()
   }
-  if (loadingState === 'loaded' && !nfts.length) return (<h1 className="px-20 py-10 text-3xl">No items in marketplace</h1>)
+  if (loadingState === 'loaded' && !nfts.length) return (<h1 className="px-20 py-10 text-3xl">NOTHING YET 🤷‍♂️</h1>)
   return (
     <div className="flex justify-center bg-black">
       <div className="px-4" style={{ maxWidth: '1600px' }}>
@@ -102,9 +102,9 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="p-4 bg-black">
-                  <p className="text-2xl mb-4 font-bold text-white">Price: {nft.price} Matic</p>
-                  <p className="text-2xl mb-4 font-bold text-white">Duration: {nft.time} Minutes</p>
-                  <button className="w-full bg-pink-500 text-white font-bold py-2 px-12 rounded" onClick={() => rentNft(nft)}>Rent</button>
+                  <p className="text-2xl mb-4 font-bold text-white">Price: {nft.price} MATIC 💰</p>
+                  <p className="text-2xl mb-4 font-bold text-white">Duration: {nft.time} MINUTES ⏳</p>
+                  <button className="w-full bg-pink-500 text-white font-bold py-2 px-12 rounded" onClick={() => rentNft(nft)}>RENT 🔑</button>
                 </div>
               </div>
             ))

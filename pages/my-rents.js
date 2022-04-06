@@ -85,7 +85,7 @@ export default function MyRents() {
 
 
 
-    if (loadingState === 'loaded' && !nfts.length) return (<h1 className="py-10 px-20 text-3xl">You Dont Have Rented Assets</h1>)
+    if (loadingState === 'loaded' && !nfts.length) return (<h1 className="py-10 px-20 text-3xl">NO 🤍NFTS YET 🤷‍♂️</h1>)
     return (
       <div className="flex justify-center">
         <div className="p-4">
@@ -95,9 +95,9 @@ export default function MyRents() {
                 <div key={i} className="border shadow rounded-xl overflow-hidden">
                   <img src={nft.image} className="rounded" />
                   <div className="p-4 bg-black">
-                    <p className="text-2xl font-bold text-white">Price - {nft.price} Matic</p>
-                    <p className="text-2xl font-bold text-white">Expires In {nft.time} Seconds</p>
-                    <button className="w-full bg-pink-500 text-white font-bold py-2 px-12 rounded" onClick={() => paybackNFT(nft)}>PayBack</button>
+                    <p className="text-2xl font-bold text-white">Price - {nft.price} MATIC 💰</p>
+                    <p className="text-2xl font-bold text-white">Expires In {nft.time} SECONDS ⏱</p>
+                    <button className="w-full bg-pink-500 text-white font-bold py-2 px-12 rounded" onClick={() => paybackNFT(nft)}>PAYBACK 🤝</button>
                   </div>
                 </div>
               ))
