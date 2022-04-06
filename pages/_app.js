@@ -21,7 +21,7 @@ function Marketplace({ Component, pageProps }) {
           <link rel="apple-touch-icon" href="https://drive.google.com/file/d/1fVD8ZsSK_CYaAjQiASItvznMMaoxeVho/view?usp=sharing" />
           
           <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-          <title>RENT 🤍NFT MARKETPLACE</title>
+          <title>RENT 🤍NFT </title>
           <meta name="title" content="RENT LUV NFT MARKETPLACE" />
           <meta name="description" content="Rent services, products and homes with NFT technology" />
 
