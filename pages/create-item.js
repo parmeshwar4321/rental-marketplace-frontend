@@ -106,14 +106,14 @@ export default function CreateItem() {
 
         <label htmlFor="AssetDescription" className="my-6 block mb-2 text-lg font-medium text-white ">🤍NFT RENTAL DEETS</label>
         <textarea
-          placeholder="Write a detailed description of your 🤍NFT rental 📝"
+          placeholder="Write a short description of your 🤍NFT rental"
           className="block p-4 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           onChange={e => updateFormInput({ ...formInput, description: e.target.value })}
         />
 
-        <label htmlFor="RentalTime" className="my-6 block mb-2 text-lg font-medium text-white">🤍NFT RENTAL TIME IN MINUTES ⌛ </label>
+        <label htmlFor="RentalTime" className="my-6 block mb-2 text-lg font-medium text-white">🤍NFT RENTAL TIME</label>
         <input
-          placeholder="Minutes ⏱"
+          placeholder="Minutes ⌛"
           className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           onChange={e => updateFormInput({ ...formInput, time: e.target.value })}
         />
