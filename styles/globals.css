@@ -8,3 +8,16 @@ html {
     color: #ffffff;
 
 }
+
+
+@media (min-width: 1024px) {
+    .lessThenlargeScreen-nav {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .largeScreen-nav {
+        display: none;
+    }
+
+}
