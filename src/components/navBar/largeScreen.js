@@ -5,7 +5,7 @@ const LargeScreen = () => {
     return (
         <nav className="border-b p-6 bg-black flex justify-between">
             <div className='flex items-center'>
-                <img src={'./rocket.png'} style={{width:'40px'}} />
+                <img src={'./LUV -NFT-Logo.png'} style={{width:'160px'}} />
                 {/* <p className="text-4xl font-bold text-white">NFT Rental Marketplace</p> */}
             </div>
             <div className="flex mt-4">
