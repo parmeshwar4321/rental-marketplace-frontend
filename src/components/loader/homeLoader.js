@@ -16,4 +16,5 @@ const HomeLoader = () => {
     )
 }
 
+
 export default HomeLoader;
