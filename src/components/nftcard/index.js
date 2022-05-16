@@ -10,9 +10,9 @@ const NFTCard = ({ nft }) => {
                 </div>
             </div>
             <div className="p-4 bg-black">
-                <p className="text-2xl mb-4 font-bold text-white">Price: {nft.price} Matic</p>
-                <p className="text-2xl mb-4 font-bold text-white">Duration: {nft.time} Minutes</p>
-                <button className="w-full bg-pink-500 text-white font-bold py-2 px-12 rounded" onClick={() => rentNft(nft)}>Rent</button>
+                <p className="text-2xl mb-4 font-bold text-white">Price: 🪙 {nft.price} Matic</p>
+                <p className="text-2xl mb-4 font-bold text-white">Duration: ⏱ {nft.time} Minutes</p>
+                <button className="w-full bg-[#CC43F5] text-white font-bold py-2 px-12 rounded border-2 border-white-500/100" onClick={() => rentNft(nft)}>RENT ⏳</button>
             </div>
         </div>
     )
