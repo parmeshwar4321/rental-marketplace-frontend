@@ -21,24 +21,24 @@ function Marketplace({ Component, pageProps }) {
           <link rel="apple-touch-icon" href="https://drive.google.com/file/d/1fVD8ZsSK_CYaAjQiASItvznMMaoxeVho/view?usp=sharing" />
 
           <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-          <title>NFT Rental Marketplace</title>
-          <meta name="title" content="NFT Rental Marketplace" />
-          <meta name="description" content="Rent NFTs from the Marketplace without any collateral" />
+          <title>RENT 🤍NFT </title>
+          <meta name="title" content="RENT LUV NFT MARKETPLACE" />
+          <meta name="description" content="Rent services, products and homes with NFT technology" />
 
 
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://nft-rental-marketplace.netlify.app/" />
-          <meta property="og:title" content="NFT Rental Marketplace" />
-          <meta property="og:description" content="Collateral Free NFT Rental Marketplace!" />
-          <meta property="og:image" content="https://user-images.githubusercontent.com/30176438/154859304-fdff81f6-490b-4674-b585-d115e89c0996.JPG" />
+          <meta property="og:url" content="https://rent.luvnft.com/" />
+          <meta property="og:title" content="RENT LUV NFT MARKETPLACE" />
+          <meta property="og:description" content="Rent services, products and homes with NFT technology" />
+          <meta property="og:image" content="https://market.luvnft.com/wp-content/uploads/2022/04/NFT-RENTAL-MARKETPLACE.jpg" />
 
 
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://nft-rental-marketplace.netlify.app/" />
-          <meta property="twitter:title" content="NFT Rental Marketplace" />
-          <meta property="twitter:description" content="Collateral Free NFT Rental Marketplace!" />
+          <meta property="twitter:url" content="https://rent.luvnft.com/" />
+          <meta property="twitter:title" content="RENT LUV NFT MARKETPLACE" />
+          <meta property="twitter:description" content="Rent services, products and homes with NFT technology" />
           <meta property="twitter:image"
-            content="https://user-images.githubusercontent.com/30176438/154859304-fdff81f6-490b-4674-b585-d115e89c0996.JPG" />
+            content="https://market.luvnft.com/wp-content/uploads/2022/04/NFT-RENTAL-MARKETPLACE.jpg" />
         </head>
       </div>
 
