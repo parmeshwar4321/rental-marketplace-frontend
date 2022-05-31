@@ -1,4 +1,4 @@
-# 💎NFT Rental Marketplace 💸Collateral Free Renting🆓
+# 💎NFT Rental Marketplace🆓
 
 ## [💎Check Out](https://nft-rental-marketplace.netlify.app) 🔔 [nft-rental-marketplace.netlify.app](https://nft-rental-marketplace.netlify.app/) 
 
